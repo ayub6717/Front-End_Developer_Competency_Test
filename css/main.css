@@ -369,9 +369,6 @@ div#carousel {
 }
 
 
-
-
-
 /* Center website */
 .main {
   max-width: 1000px;
@@ -386,12 +383,6 @@ h1 {
 .row {
   margin: 10px -16px;
 }
-
-/* Add padding BETWEEN each column */
-/* .row,
-.row > .column {
-  padding: 2px;
-} */
 
 /* Create three equal columns that floats next to each other */
 .column {
@@ -434,4 +425,30 @@ h1 {
 .btn.active {
   background-color: #666;
   color: white;
+}
+
+
+
+@media screen and (max-width:980px) {
+  .input-field {
+    width: 80%;
+}
+
+.centered1 h3{
+  font-size: small;
+}
+
+.mainDiv {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.content2>img{
+height: 200px !important;
+}
+
+.row {
+  margin:0px;
+  margin-top: 90px;
+}
 }
